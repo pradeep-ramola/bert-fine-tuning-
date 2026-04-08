@@ -10,7 +10,7 @@ This script:
   - Evaluates with macro F1, per-class F1, confusion matrix
   - Saves the model checkpoint for comparison with LoRA version
 
-Run AFTER step1_data_preprocessing.py
+Run AFTER data_preprocessing.py
 """
 
 import os

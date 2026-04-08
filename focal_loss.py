@@ -19,10 +19,10 @@ This script:
   - Implements a multiclass FocalLoss module
   - Re-trains the LoRA model from Step 3 with FocalLoss
   - Compares per-class F1 vs Step 3 (weighted CE only)
-  - This file can also be imported by step3_lora_bert.py for a drop-in swap
+  - This file can also be imported by lora_bert.py for a drop-in swap
 
 Usage:
-  Run standalone  →  python step4_focal_loss.py
+  Run standalone  →  python focal_loss.py
   Import          →  from step4_focal_loss import FocalLoss
 """
 
